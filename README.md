@@ -90,7 +90,7 @@ root@wardell:/home/hasush/Documents/mnist_train_test_server/Source/mnist_classif
  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
 ```
 
-To initiate communication with the other server, visit endpoint at: `http://localhost:5001/run_inference`.
+To initiate communication with the server, visit endpoint at: `http://localhost:5001/run_inference`.
 
 ### Output
 If everything is running correctly, one should be able to visit http://localhost:5001/run_inference or http://localhost:5000/launch_inference and produce the outputs shown in the following images:
