@@ -93,6 +93,10 @@ root@wardell:/home/hasush/Documents/mnist_train_test_server/Source/mnist_classif
 To initiate communication with the server, visit endpoint at: `http://localhost:5001/run_inference`.
 
 ### Output
-If everything is running correctly, one should be able to visit http://localhost:5001/run_inference or http://localhost:5000/launch_inference and produce the outputs shown in the images below. These outputs correspond to the values of the first 6 images in the MNIST train set. The output is the true label and the label predicted by the trained classifier. These value can be accessed directly by going to the inference server. It can also be accessed indirectly using the launch server which calls the inference server and returns its value.
+If everything is running correctly, one should be able to visit http://localhost:5001/run_inference or http://localhost:5000/launch_inference and produce the outputs shown in the images below. 
+
 https://github.com/hasush/mnist_train_test_server/blob/main/Resource/Images/inference_server.png
 https://github.com/hasush/mnist_train_test_server/blob/main/Resource/Images/launch_server.png
+
+These outputs correspond to the values of the first 6 images in the MNIST train set. The output is the true label and the label predicted by the trained classifier. These value can be accessed directly by going to the inference server. It can also be accessed indirectly using the launch server which calls the inference server and returns its value.
+
