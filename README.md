@@ -94,4 +94,5 @@ To initiate communication with the other server, visit endpoint at: `http://loca
 
 ### Output
 If everything is running correctly, one should be able to visit http://localhost:5001/run_inference or http://localhost:5000/launch_inference and produce the outputs shown in the following images:
-[[https://github.com/hasush/mnist_train_test_server/blob/main/Resource/Images/inference_server.png|alt=octocat]][[https://github.com/hasush/mnist_train_test_server/blob/main/Resource/Images/launch_server.png]]
+https://github.com/hasush/mnist_train_test_server/blob/main/Resource/Images/inference_server.png
+https://github.com/hasush/mnist_train_test_server/blob/main/Resource/Images/launch_server.png
