@@ -81,13 +81,13 @@ Make sure that the field of configuration file `config.py`: `model_evaluate_chec
 
 To deploy the server:
 ```
-root@wardell:/home/hasush/Documents/mnist_train_test_server/Source/mnist_classifier# python3 driver.py --mode launch_server
- * Serving Flask app "mnist_classifier.deploy_launch_server" (lazy loading)
+root@wardell:/home/hasush/Documents/mnist_train_test_server/Source/mnist_classifier# python3 driver.py --mode inference_server
+ * Serving Flask app "mnist_classifier.deploy_inference_server" (lazy loading)
  * Environment: production
    WARNING: This is a development server. Do not use it in a production deployment.
    Use a production WSGI server instead.
  * Debug mode: off
- * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
 ```
 
 To initiate communication with the other server, visit endpoint at: `http://localhost:5001/run_inference`.
