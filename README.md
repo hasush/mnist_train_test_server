@@ -11,9 +11,9 @@ GPU compatibilitiy contingent on hardware driver compatibility with torch 1.6. B
 ### Environment
 Configure environment using requirements in Dockerfile located at `Resource/Environments/Dockerfile` or pull docker images from public docker hub:
 
-ASDF_INSERT_LAUNCH_SERVER
+https://hub.docker.com/repository/docker/hasush/mnist_classifier_launch_server
 
-ASDF_INSERT_INFERENCE_SERVER
+https://hub.docker.com/repository/docker/hasush/mnist_classifier_inference_server
 
 Can launch docker images with following commands located at `Resource/Environments`:
 
