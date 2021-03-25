@@ -1,4 +1,4 @@
-# mnist_train_test_server
+# Train an MNIST classifier using pytorch and then deploy the model to flask containers in seperate docker images.
 
 Train and evaluate an MNIST classifier. 
 
@@ -6,13 +6,13 @@ Use flask to deploy a launch server which contacts an inference server which dep
 
 GPU compatibilitiy contingent on hardware driver compatibility with torch 1.6.
 
-### How to use.
+## How to use.
 
-## Environment
-Configure environment using requirements in Dockerfile located at Resource/Environments/Dockerfile or pull docker images from public docker hub:
+### Environment
+Configure environment using requirements in Dockerfile located at `Resource/Environments/Dockerfile` or pull docker images from public docker hub:
 
 ASDF_INSERT_LAUNCH_SERVER
 ASDF_INSERT_INFERENCE_SERVER
 
 Can launch docker images with following commands located at `Resource/Environments`:
-inference_server_docker_container.sh  launch_server_docker_container.sh
+`inference_server_docker_container.sh`  `launch_server_docker_container.sh`
