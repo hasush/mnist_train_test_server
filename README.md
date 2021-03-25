@@ -94,5 +94,4 @@ To initiate communication with the other server, visit endpoint at: `http://loca
 
 ### Output
 If everything is running correctly, one should be able to visit the following addresses and have the same coresponding outputs:
-[[https://github.com/hasush/mnist_train_test_server/blob/main/Resource/Images/inference_server.png|alt=octocat]]
-[[https://github.com/hasush/mnist_train_test_server/blob/main/Resource/Images/launch_server.png]]
+[[https://github.com/hasush/mnist_train_test_server/blob/main/Resource/Images/inference_server.png|alt=octocat]][[https://github.com/hasush/mnist_train_test_server/blob/main/Resource/Images/launch_server.png]]
