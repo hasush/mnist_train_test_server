@@ -6,7 +6,7 @@ Use flask to deploy a launch server which contacts an inference server which dep
 
 GPU compatibilitiy contingent on hardware driver compatibility with torch 1.6.
 
-## How to use.
+## How to use
 
 ### Environment
 Configure environment using requirements in Dockerfile located at `Resource/Environments/Dockerfile` or pull docker images from public docker hub:
@@ -30,5 +30,10 @@ Example:
 In the files `inference_server_docker_container.sh` and `launch_server_docker_container.sh`, make `local_dir_map=/home/your_user_id`.
 
 Launch the bash files to deploy the docker images.
+If you cloned this repo to `/home/your_user_id/Documents/mnist_train_test_server`, then with 'user_id'='hasush',
+
+```
+hasush@wardell:~/Documents$ export PYTHONPATH=/home/hasush/Documents/mnist_train_test_server/Source/
+```
 ### Train
 
