@@ -98,5 +98,5 @@ If everything is running correctly, one should be able to visit http://localhost
 https://github.com/hasush/mnist_train_test_server/blob/main/Resource/Images/inference_server.png
 https://github.com/hasush/mnist_train_test_server/blob/main/Resource/Images/launch_server.png
 
-These outputs correspond to the values of the first 6 images in the MNIST train set. The output is the true label and the label predicted by the trained classifier. These value can be accessed directly by going to the inference server. It can also be accessed indirectly using the launch server which calls the inference server and returns its value.
+These outputs correspond to the values of the first 6 images in the MNIST test set. The outputs are the true label and the label predicted by the trained classifier. These values can be accessed directly by going to the inference server. The classifier output can also be accessed indirectly using the launch server which calls the inference server and returns its value.
 
